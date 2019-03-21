@@ -1,21 +1,25 @@
 import 'babel-polyfill';
 
 // action constants
-const SAY_HI = 'SAY_HI';
+/*
+  const SAY_HI = 'SAY_HI';
+*/
 
 // action creators
-const sayHi = () => {
-  return {
-    type: SAY_HI,
-    greeting: 'hello',
+/*
+  const sayHi = () => {
+    return {
+      type: SAY_HI,
+      greeting: 'hello',
+    };
   };
-};
 
-export const greet = () => {
-  return async dispatch => {
-    dispatch(sayHi());
+  export const greet = () => {
+    return async dispatch => {
+      dispatch(sayHi());
+    };
   };
-};
+*/
 
 // initial state
 const initialState = {

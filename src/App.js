@@ -6,9 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>TripleByte application goes here!</p>
-        </header>
+        <p>TripleByte application goes here!</p>
       </div>
     );
   }
